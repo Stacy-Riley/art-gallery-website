@@ -15,7 +15,10 @@ html {
 }
 
 body {
-  /* font-family: ; */
+  /* Headings */
+  /* font-family: 'Big Shoulders Display', sans-serif; */
+  /* Body */
+  /* font-family: 'Outfit', sans-serif; */
   min-height: 100%;
   margin: 0;  
 }
