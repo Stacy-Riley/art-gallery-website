@@ -43,6 +43,21 @@ img {
 /* Homepage - Mobile First */
 /* Header Section */
 /**************************************************/
+.header-container-blank-dark,
+.header-container-blank-light {
+  display: none;
+}
+
+.header-home-page-h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 3.438rem;
+}
+
+.header-span-word-modern {
+  display: block;
+}
 
 /**************************************************/
 /* Homepage - Mobile First */
