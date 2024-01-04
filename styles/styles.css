@@ -46,16 +46,12 @@ p {
 /* Homepage - Mobile First */
 /* Header Section */
 /**************************************************/
-.header-container-blank-dark,
-.header-container-blank-light {
-  display: none;
-}
-
 .header-container-image {
   margin-bottom: 2rem;
 }
 
 .header-home-page-h1 {
+  color: #151515;
   font-family: 'Big Shoulders Display', sans-serif;
   font-size: 3.75rem;
   font-weight: 900;
@@ -63,11 +59,14 @@ p {
   margin-bottom: 2rem;
 }
 
-.header-container-text p {
-  margin-bottom: 2rem;
+.header-wrapper-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.header-span-word-modern {
-  display: block;
+
+.header-container-text p {
+  color: #444;
+  margin-bottom: 2rem;
 }
 
 .header-container-link a {
@@ -75,9 +74,6 @@ p {
 }
 
 .header-container-link-inner-div {
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
   margin-bottom: 7.5rem;
 }
 
@@ -94,6 +90,16 @@ p {
   padding: 1.375rem 2rem 1.375rem 2.188rem;
 }
 
+/*** Hover Effect of "Our Location" link  ***/
+.header-container-link-inner-div:hover .icon-react {
+  fill: #151515;
+  transition: fill 0.3s ease;
+}
+
+.header-container-link-inner-div:hover p {
+  background-color: rgba(213, 150, 108, 1);
+  transition: background-color 0.3s ease;
+}
 /**************************************************/
 /* Homepage - Mobile First */
 /* Body Section */
@@ -104,5 +110,57 @@ p {
 /* Footer Section */
 /**************************************************/
 
-/* Import Google Fonts */
-/* Ready to begin styling the homepage in mobil view */
+
+
+
+
+/**************************************************/
+/* Homepage - Tablet */
+/* Header Section */
+/**************************************************/
+@media(min-width: 768px){
+  header {
+    position: relative;
+  }
+
+  .header-container-image {
+    width: 56%;
+    margin-bottom: 7.5rem;
+  }
+
+  .header-container-image img {
+    content: url('../assets/tablet/image-hero@2x.jpg');
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header-wrapper-text {
+    position: absolute;
+    top: 9.063rem;
+    left: 23rem;
+  }
+
+  .header-home-page-h1 {
+    font-size: 4.375rem;
+    line-height: 4.063rem;
+    margin-bottom: 3rem;
+  }
+
+  .header-container-text p {
+    margin-bottom: 2.5rem;
+  }
+
+  .header-container-link-inner-div {
+    margin-bottom: 0;
+  }
+}
+
+
+/**************************************************/
+/* Homepage - Desktop */
+/* Header Section */
+/**************************************************/
+@media(min-width: 1440px){
+  
+
+}
