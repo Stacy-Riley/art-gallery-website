@@ -8,6 +8,7 @@
 }
 
 html {
+  font-size: 16px;
   border: 0;
   margin: 0;
   padding: 0;
@@ -31,14 +32,16 @@ body {
   margin-right: auto;
  } 
 
-figure {
-  margin: 0;
-}
-
 img {
   width: 100%;
 }
 
+p {
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.75rem;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
 /**************************************************/
 /* Homepage - Mobile First */
 /* Header Section */
@@ -48,15 +51,47 @@ img {
   display: none;
 }
 
+.header-container-image {
+  margin-bottom: 2rem;
+}
+
 .header-home-page-h1 {
   font-family: 'Big Shoulders Display', sans-serif;
   font-size: 3.75rem;
   font-weight: 900;
   line-height: 3.438rem;
+  margin-bottom: 2rem;
 }
 
+.header-container-text p {
+  margin-bottom: 2rem;
+}
 .header-span-word-modern {
   display: block;
+}
+
+.header-container-link a {
+  text-decoration: none;
+}
+
+.header-container-link-inner-div {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin-bottom: 7.5rem;
+}
+
+.header-container-link p {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.227rem;
+  margin: 0;
+  padding: 0;
+  padding: 1.375rem 2rem 1.375rem 2.188rem;
 }
 
 /**************************************************/
