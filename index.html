@@ -18,30 +18,41 @@
   <div class="max-width-wrapper-home">
     <header>
       <div>
-        <div class="header-container-blank-dark"></div>
-
-        <figure class="header-container-image container-sm p-0">
-          <img src="./assets/mobile/image-hero@2x.jpg" alt="A couple walking and viewing a large profile image of an older woman in glasses">
-        </figure>
-
-        <div class="header-container-blank-light"></div>
+        <div class="header-container-blank-dark d-sm-none d-lg-block"></div>
+        
+        <div class="header-container-wrapper-image">
+          <figure class="header-container-image">
+            <img src="./assets/mobile/image-hero@2x.jpg" alt="A couple walking and viewing a large profile image of an older woman in glasses">
+          </figure>
+        </div>
+    
       </div>
-      <!-- mx-3 = rem 1 = 16px -->
-      <div class="header-wrapper-text mx-3"> 
+      
+      <div class="header-wrapper-text"> 
         <div class="header-container-text">
-          <h1 class="header-home-page-h1"><span class="header-span-word-modern">MODER<span class="header-span-two-color-letter" data-letter="N">N</span></span>
+          <h1 class="header-home-page-h1"><span class="header-span-word-modern d-block">MODER<span class="header-span-two-color-letter" data-letter="N">N</span></span>
              ART GAL<span class="header-span-one-color-letter">LERY</span></h1>
           <p>The arts in the collection of the Modern Art Gallery all started 
             from a spark of inspiration. Will these pieces inspire you? Visit 
             us and find out.</p>
         </div>
         <div class="header-container-link">
-          <a href="http://#">Our location<img src="./assets/icon-arrow-right.svg" alt="Arrow right icon"></a>
+          <a href="http://#">
+            <div class="header-container-link-inner-div d-inline-flex flex-row">
+              <p>Our location</p>
+              <figure class="m-0">
+                 <svg class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="56" height="72" viewBox="0 0 56 72" fill="none">
+                  <rect class="icon-react" width="56" height="72" fill="#D5966C"/>
+                  <path d="M24 24L32 36L24 48" stroke="white"/>
+                </svg>
+              </figure>
+            </div>
+          </a>
         </div>
       </div>
     </header>
 
-    <section class="section-one-wrapper">
+    <section class="section-one-wrapper d-flex flex-column-reverse flex-md-row">
       <div class="section-one-container-one">
         <h2>Your day at the gallery</h2>
         <p>Wander through our distinct collections and find new insights about 
