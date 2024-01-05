@@ -184,6 +184,8 @@ img {
 
 .footer-container-two-text p {
   color: #fff;
+  line-height: 1.625rem;
+  font-size: 1rem;
   margin-bottom: 2.375rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -342,4 +344,4 @@ img {
 
 }
 
-/* Ready to style the body of mobile view */
+/* Ready to style the footer of tablet view */
