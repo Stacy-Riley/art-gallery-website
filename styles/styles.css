@@ -227,7 +227,7 @@ img {
   }
 
   .header-container-image {
-    width: 56%;
+    width: 56vw;
     margin-bottom: 7.5rem;
   }
 
@@ -251,6 +251,7 @@ img {
 
   .header-container-text p {
     margin-bottom: 2.5rem;
+    max-width:21.188rem;
   }
 
   .header-container-link-inner-div {
@@ -273,14 +274,16 @@ img {
     margin: 0;
     margin-top: 2.25rem;
     margin-left: 2.438rem;  
-    width: 13.938rem;
+    margin-right: 4.25rem;
+    width: 36vw;
+    max-width: 13.938rem;
   }
 
   .section-one-container-two {
     margin: 0;
     margin-right: 2.5rem;
     margin-bottom: 0.688rem;
-    width: 24.875rem;
+    width: 64vw;
   }
 
   .section-one-container-two img {
@@ -299,9 +302,9 @@ img {
     margin: 0;
     margin-left: 2.438rem;
     margin-right: 0.688rem; 
-    width: 24.875rem;
+    width: 59vw;
   }
-  
+
   .section-two-container-one img {
       content: url('../assets/tablet/image-grid-2@2x.jpg');
       max-width: 100%;
@@ -310,7 +313,7 @@ img {
 
   .section-two-container-two {
     margin-right: 2.5rem;
-    width: 17.5rem;
+    width: 41vw;
   }
 
   .section-two-container-two-container-image {
@@ -322,10 +325,19 @@ img {
     max-width: 100%;
     height: auto;
   }
-
+ 
   .section-two-container-two-container-text {
-    padding-top: 5.313rem;
-    padding-bottom: 5.313rem;
+    padding: 0;
+    width: 41vw;
+    padding-top: 11%;
+    padding-bottom: 11%;
+  }
+
+  .section-two-container-two-container-text h2,
+  .section-two-container-two-container-text p {
+    margin-left: 1.813rem;
+    margin-right: 1.75rem;
+    max-width: 13.938rem;
   }
 
 /**************************************************/
@@ -365,3 +377,4 @@ img {
 
 }
 
+/* Begin with the desktop view for next session */
