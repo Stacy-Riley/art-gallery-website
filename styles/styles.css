@@ -39,7 +39,7 @@ img {
 .p-tag {
   font-family: 'Outfit', sans-serif;
   line-height: 1.75rem;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.125rem;
   margin: 0;
   padding: 0;
@@ -372,9 +372,86 @@ img {
 /* Homepage - Desktop */
 /* Header Section */
 /**************************************************/
-@media(min-width: 1440px){
+@media(min-width: 1439px){
+  header {
+    margin-bottom: 11.25rem;
+  }
+
+  .header-wrapper-image-divs {
+    display: flex;
+  }
+
+  .header-container-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-wrapper-text {
+    margin: 0;
+    top: 11.813rem;
+    left: 10.313rem;
+  }
+
+  .header-container-blank-dark {
+    background-color: #151515;
+    width: 28.125rem;
+  }
+
+  .header-container-image {
+    width: 33.75rem;
+    margin: 0;
+  }
+
+  .header-home-page-h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    margin-bottom: 0;
+  }
+
+  .header-span-word-modern,
+  .header-span-one-color-letter {
+    color: #ffffff;
+  }
+
+  .header-span-two-color-letter {
+    color: #151515;
+  }
+  
+  /* Styles for the 2-color "N" in the title */
+  .header-span-two-color-letter {
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 66.666%, #151515 66.666%, #151515 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .header-container-text p {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    margin-left: 19.5rem;
+    max-width: 21.875rem;
+  }
+
+  .header-container-link {
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+  }
+
+/**************************************************/
+/* Homepage - Desktop */
+/* Body Section */
+/**************************************************/
+
+
+/* Continue with the body styles in desktop */
+
+
+/**************************************************/
+/* Homepage - Desktop */
+/* Footer Section */
+/**************************************************/
 
 
 }
 
-/* Begin with the desktop view for next session */
