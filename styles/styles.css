@@ -251,7 +251,7 @@ img {
 
   .header-container-text p {
     margin-bottom: 2.5rem;
-    max-width:21.188rem;
+    max-width: 21.188rem;
   }
 
   .header-container-link-inner-div {
@@ -442,10 +442,95 @@ img {
 /* Homepage - Desktop */
 /* Body Section */
 /**************************************************/
+  .section-one-container-one {
+    margin: 0;
+    margin-top: 3.75rem;
+    margin-left: 10.313rem;  
+    margin-right: 7.813rem;
+    max-width: 21.875rem;
+  }
 
+  .section-one-container-one h2 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    margin-bottom: 2rem;
+  }
 
-/* Continue with the body styles in desktop */
+  .section-one-container-one-span-h2-2 {
+    display: inline;
+  }
 
+  .section-one-container-one-span-h2-1 {
+    display: inline;
+  }
+
+  .section-one-container-one p {
+    font-size: 1.375rem;
+    line-height: 2rem;
+  }
+
+  .section-one-container-two {
+    margin: 0;
+    margin-right: 10.25rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .section-one-container-two img {
+    content: url('../assets/desktop/image-grid-1@2x.jpg');
+    max-width: 100%;
+    height: auto;
+  }
+
+/* For next session, begin with section 2 of body. Adjust the below
+styles from tablet view for desktop view */
+
+  /* .section-two-wrapper {
+    margin: 0;
+    margin-bottom: 7.5rem;
+    justify-content: space-between;
+  }
+
+  .section-two-container-one {
+    margin: 0;
+    margin-left: 2.438rem;
+    margin-right: 0.688rem; 
+    width: 59vw;
+  }
+
+  .section-two-container-one img {
+      content: url('../assets/tablet/image-grid-2@2x.jpg');
+      max-width: 100%;
+      height: auto;
+  }
+
+  .section-two-container-two {
+    margin-right: 2.5rem;
+    width: 41vw;
+  }
+
+  .section-two-container-two-container-image {
+    margin-bottom: 0.688rem;
+  }
+
+  .section-two-container-two-container-image img {
+    content: url('../assets/tablet/image-grid-3@2x.jpg');
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section-two-container-two-container-text {
+    padding: 0;
+    width: 41vw;
+    padding-top: 11%;
+    padding-bottom: 11%;
+  }
+
+  .section-two-container-two-container-text h2,
+  .section-two-container-two-container-text p {
+    margin-left: 1.813rem;
+    margin-right: 1.75rem;
+    max-width: 13.938rem;
+  } */
 
 /**************************************************/
 /* Homepage - Desktop */
