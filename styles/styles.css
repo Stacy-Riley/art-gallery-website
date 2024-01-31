@@ -476,6 +476,10 @@ img {
     content: url('../assets/desktop/image-grid-1@2x.jpg');
   }
 
+  .section-two-wrapper {
+    margin-bottom: 11.25rem;
+  }
+
   .section-two-container-one {
     margin-left: 10.313rem;
     margin-right: 1.875rem; 
