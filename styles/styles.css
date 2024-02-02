@@ -218,7 +218,7 @@ img {
 }
 
 /**************************************************/
-/* Homepage - Tablet */
+/* Homepage - Tablet Portrait View*/
 /* Header Section */
 /**************************************************/
 @media(min-width: 768px){
@@ -257,7 +257,7 @@ img {
   }
 
 /**************************************************/
-/* Homepage - Tablet */
+/* Homepage - Tablet Portrait View*/
 /* Body Section */
 /**************************************************/
   .section-one-wrapper {
@@ -338,7 +338,7 @@ img {
   }
 
 /**************************************************/
-/* Homepage - Tablet */
+/* Homepage - Tablet Portrait View*/
 /* Footer Section */
 /**************************************************/
   .footer-wrapper {
@@ -365,6 +365,14 @@ img {
     margin-right: 2.5rem;
   }
 }
+
+/**************************************************/
+/* Homepage - Tablet Landscape View*/
+/* Header Section */
+/**************************************************/
+@media(min-width: 768px){
+}
+
 /**************************************************/
 /* Homepage - Desktop */
 /* Header Section */
@@ -527,7 +535,39 @@ img {
 /* Homepage - Desktop */
 /* Footer Section */
 /**************************************************/
+  .footer-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 
-/* For next session, begin work on the desktop footer styles */
+  /* Museum Logo */
+  .footer-container-one-logo {
+    width: 9.97rem;
+    height: 3.625rem;
+    margin-left: 10.313rem;
+  }
+
+  .footer-container-two-text p {
+    font-size: 1.125rem;
+    width: 26.875rem;
+  }
+
+  .footer-container-social-media {
+    justify-self: end;
+    margin-right: 10.313rem;
+  }
+
+  .footer-container-social-media a:nth-child(1){
+    margin-right: 0;
+  }
+
+  .footer-container-social-media a:nth-child(3){
+    margin: 0;
+  }
+
+  .footer-container-social-media a:nth-child(2){
+    margin-left: 2rem;
+  }
 }
 
+/* For next session, begin work on... */
