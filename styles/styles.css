@@ -637,7 +637,7 @@ img {
 /* Body Section */
 /**************************************************/
 .section-location-wrapper {
-  background-color: black;
+  background-color: #151515;
 }
 
 .section-location-container-title {
@@ -688,5 +688,53 @@ img {
 /* Location Page - Mobile */
 /* Footer Section */
 /**************************************************/
+.footer-location-page-wrapper {
+  background-color: #D5966C;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Museum Logo */
+.footer-location-page-container-one-logo {
+  width: 6.878rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2.375rem;
+}
+
+.footer-location-page-container-two-text p {
+  color: #151515;
+  line-height: 1.625rem;
+  font-size: 1rem;
+  margin-bottom: 2.375rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-location-page-container-social-media {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.footer-location-page-container-social-media a {
+  margin-right: 1.875rem;
+}
+
+.logo-facebook-location-page {
+  border-radius: 3px;
+  background-color: #151515;
+  width: 25px;
+  height: 25px;
+}
+
+.logo-instagram-location-page {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
 
 /* Next session, begin with the footer of location page in mobile */
