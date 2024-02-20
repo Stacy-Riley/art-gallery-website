@@ -1,0 +1,171 @@
+/**************************************************/
+/* Location Page - Mobile First*/
+/* Header Section */
+/**************************************************/
+.header-location,
+.header-location-container-map {
+  margin: 0;
+  position: relative;
+}
+
+.header-location-container-link-inner-div {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-location-container-link a {
+  text-decoration: none;
+}
+
+.header-location-container-link p {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.227rem;
+  padding: 1.375rem 2rem 1.375rem 2.188rem;
+}
+
+/*** Hover Effect of "Our Location" link  ***/
+.header-location-container-link-inner-div:hover .icon-react {
+  fill: #151515;
+  transition: fill 0.3s ease;
+}
+
+.header-location-container-link-inner-div:hover p {
+  background-color: rgba(213, 150, 108, 1);
+  transition: background-color 0.3s ease;
+}
+
+/**************************************************/
+/* Location Page - Mobile */
+/* Body Section */
+/**************************************************/
+.section-location-wrapper {
+  background-color: #151515;
+}
+
+.section-location-container-title {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-location-container-title h1 {
+  color: #ffffff;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 3.125rem;
+  font-weight: 900;
+  line-height: 2.813rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.section-location-container-address {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3.5rem;
+}
+
+.section-location-container-address address {
+  color: #ffffff;
+}
+
+.section-location-container-address address:first-child {
+  margin-bottom: 1.25rem;
+}
+
+.section-location-container-address span {
+  color: #D5966C;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.813rem;
+  text-transform: uppercase;
+}
+
+.section-location-container-address p {
+  color: #ffffff;
+}
+
+/**************************************************/
+/* Location Page - Mobile */
+/* Footer Section */
+/**************************************************/
+.footer-location-page-wrapper {
+  background-color: #D5966C;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Museum Logo */
+.footer-location-page-container-one-logo {
+  width: 6.878rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2.375rem;
+}
+
+.footer-location-page-container-two-text p {
+  color: #151515;
+  line-height: 1.625rem;
+  font-size: 1rem;
+  margin-bottom: 2.375rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-location-page-container-social-media {
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.footer-location-page-container-social-media a {
+  margin-right: 1.875rem;
+}
+
+.logo-facebook-location-page {
+  border-radius: 3px;
+  background-color: #151515;
+  width: 25px;
+  height: 25px;
+}
+
+.logo-instagram-location-page {
+  width: 40px;
+  height: 40px;
+}
+
+/**************************************************/
+/* Location page - Tablet Portrait View*/
+/* Header Section */
+/**************************************************/
+@media(min-width: 768px){
+  .header-location-container-map img {
+    content: url('../assets/tablet/image-map@2x.png');
+  }
+
+  .header-location-container-link-inner-div {
+    top: 0;
+    left: 20px;
+  }
+
+/**************************************************/
+/* Location page - Tablet Portrait View*/
+/* Body Section */
+/**************************************************/
+
+
+/**************************************************/
+/* Location page - Tablet Portrait View*/
+/* Footer Section */
+/**************************************************/
+
+}
+
+/* Next session, continue with the body of location page in tablet */
