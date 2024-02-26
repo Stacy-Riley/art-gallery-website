@@ -159,7 +159,28 @@
 /* Location page - Tablet Portrait View*/
 /* Body Section */
 /**************************************************/
+.section-location-wrapper {
+  display: flex;
+  flex-direction: row;
+}
 
+.section-location-container-title {
+  margin-left: 2.438rem;
+  margin-right: 0;
+  padding-top: 5.5rem;
+  padding-bottom: 0;
+}
+
+.section-location-container-title span {
+  display: block;
+}
+
+.section-location-container-address {
+  margin-left: 4.25rem;
+  margin-right: 2.5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
+}
 
 /**************************************************/
 /* Location page - Tablet Portrait View*/
@@ -168,4 +189,4 @@
 
 }
 
-/* Next session, continue with the body of location page in tablet */
+/* Next session, continue with the footer of location page in tablet */
