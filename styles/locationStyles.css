@@ -159,34 +159,55 @@
 /* Location page - Tablet Portrait View*/
 /* Body Section */
 /**************************************************/
-.section-location-wrapper {
-  display: flex;
-  flex-direction: row;
-}
+  .section-location-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
 
-.section-location-container-title {
-  margin-left: 2.438rem;
-  margin-right: 0;
-  padding-top: 5.5rem;
-  padding-bottom: 0;
-}
+  .section-location-container-title {
+    margin-left: 2.438rem;
+    margin-right: 0;
+    padding-top: 5.5rem;
+    padding-bottom: 0;
+  }
 
-.section-location-container-title span {
-  display: block;
-}
+  .section-location-container-title span {
+    display: block;
+  }
 
-.section-location-container-address {
-  margin-left: 4.25rem;
-  margin-right: 2.5rem;
-  padding-top: 5.5rem;
-  padding-bottom: 5rem;
-}
+  .section-location-container-address {
+    margin-left: 4.25rem;
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    width: 24.875rem;
+  }
 
 /**************************************************/
 /* Location page - Tablet Portrait View*/
 /* Footer Section */
 /**************************************************/
+  .footer-location-page-wrapper {
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }  
 
+.footer-location-page-container-one-logo {
+    width: 6.878rem;
+	  height: 2.5rem;
+	  margin-left: 2.438rem;
+	  margin-bottom: 0;
+  }
+
+  .footer-location-page-container-two-text p {
+	  margin: 0;
+	  width: 17.563rem;
+	}
+  
+	.footer-location-page-container-social-media {
+	  margin-right: 2.5rem;
+	}
 }
 
-/* Next session, continue with the footer of location page in tablet */
+/* Next session, continue with the header of location page in desktop */
