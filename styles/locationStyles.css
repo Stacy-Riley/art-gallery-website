@@ -227,11 +227,19 @@
 /* Homepage - Desktop */
 /* Body Section */
 /**************************************************/
+.section-location-container-title {
+  margin-left: 10.313rem;
+  margin-right: 0;
+  padding-top: 6.5rem;
+  padding-bottom: 0;
+}
 
-
-
-
-
+.section-location-container-address {
+  margin-left: 13.75rem;
+  padding-top: 6.5rem;
+  padding-bottom: 8rem;
+  width: 33.75rem;
+}
 
 /**************************************************/
 /* Homepage - Desktop */
@@ -245,4 +253,6 @@
 }
 
 
-/* Next session, continue with the header of location page in desktop */
+/* Next session, continue with the body of location page in desktop 
+Double check fonts from tablet and add desktop fonts
+*/
