@@ -214,8 +214,14 @@
 /* Header Section */
 /**************************************************/
   @media(min-width: 1439px){
-
-
+    .header-location-container-map img {
+      content: url('../assets/desktop/image-map@2x.png');
+    }
+  
+    .header-location-container-link-inner-div {
+      top: 0;
+      left: 156px;
+    }
 
 /**************************************************/
 /* Homepage - Desktop */
