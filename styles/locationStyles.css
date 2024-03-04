@@ -74,6 +74,7 @@
 
 .section-location-container-address address {
   color: #ffffff;
+  margin-bottom: .5rem;
 }
 
 .section-location-container-address address:first-child {
@@ -91,6 +92,7 @@
 
 .section-location-container-address p {
   color: #ffffff;
+  margin-top: 1.5rem;
 }
 
 /**************************************************/
@@ -174,7 +176,7 @@
   .section-location-container-title span {
     display: block;
   }
-  
+
   .section-location-container-title h1 {
     font-size: 3.438rem;
     line-height: 3.125rem;
@@ -220,32 +222,49 @@
 /* Header Section */
 /**************************************************/
   @media(min-width: 1439px){
-    .header-location-container-map img {
-      content: url('../assets/desktop/image-map@2x.png');
-    }
-  
-    .header-location-container-link-inner-div {
-      top: 0;
-      left: 156px;
-    }
+  .header-location-container-map img {
+    content: url('../assets/desktop/image-map@2x.png');
+  }
+
+  .header-location-container-link-inner-div {
+    top: 0;
+    left: 156px;
+  }
 
 /**************************************************/
 /* Homepage - Desktop */
 /* Body Section */
 /**************************************************/
-.section-location-container-title {
-  margin-left: 10.313rem;
-  margin-right: 0;
-  padding-top: 6.5rem;
-  padding-bottom: 0;
-}
+  .section-location-container-title {
+    margin-left: 10.313rem;
+    margin-right: 0;
+    padding-top: 6.5rem;
+    padding-bottom: 0;
+  }
 
-.section-location-container-address {
-  margin-left: 13.75rem;
-  padding-top: 6.5rem;
-  padding-bottom: 8rem;
-  width: 33.75rem;
-}
+  .section-location-container-title h1 {
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+  }
+
+  .section-location-container-address {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    margin-left: 13.75rem;
+    padding-top: 6.5rem;
+    padding-bottom: 8rem;
+    width: 33.75rem;
+  }
+
+  .section-location-container-address span {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+
+  .section-location-container-address p {
+    font-size: 1.375rem;
+    line-height: 2rem;
+  }
 
 /**************************************************/
 /* Homepage - Desktop */
@@ -260,5 +279,5 @@
 
 
 /* Next session, continue with the body of location page in desktop 
-Double check fonts from tablet and add desktop fonts
+and add desktop fonts
 */
