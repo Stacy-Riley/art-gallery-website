@@ -174,8 +174,14 @@
   .section-location-container-title span {
     display: block;
   }
+  
+  .section-location-container-title h1 {
+    font-size: 3.438rem;
+    line-height: 3.125rem;
+  }
 
   .section-location-container-address {
+    font-size: 1.125rem;
     margin-left: 4.25rem;
     padding-top: 5.5rem;
     padding-bottom: 5rem;
