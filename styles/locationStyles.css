@@ -270,14 +270,28 @@
 /* Homepage - Desktop */
 /* Footer Section */
 /**************************************************/
+  .footer-location-page-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }  
 
+  .footer-location-page-container-one-logo {
+    width: 9.973rem;
+    height: 3.625rem;
+    margin-left: 10.313rem;
+  }
 
+  .footer-location-page-container-two-text p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 26.875rem;
+  }
 
-
-
+  .footer-location-page-container-social-media {
+    margin-right: 13.75rem;
+  }
 }
 
-
-/* Next session, continue with the body of location page in desktop 
-and add desktop fonts
+/* Next session:
+Check spacing of code and clean it up
 */
