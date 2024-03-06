@@ -56,5 +56,16 @@ img {
   text-transform: uppercase;
 }
 
+/* Used for text in Header */
+.slow-load {
+  opacity: 0; /* Initially makes text invisible */
+  transition: opacity 1s ease; /* Applies smooth transition effect */
+}
+
+/* Used for text in Body and Footer */
+.slow-reveal {
+  opacity: 0; /* Initially makes text invisible */
+  transition: opacity 1s ease; /* Applies smooth transition effect */
+}
 
 
