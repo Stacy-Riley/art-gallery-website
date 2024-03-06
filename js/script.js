@@ -14,7 +14,7 @@ const rect = element.getBoundingClientRect();
 	);
 }
 
-//Function to handle the scroll event in body section:
+//Function to handle the scroll event in body and footer sections:
 function handleScroll() {
 	const textEl = document.querySelectorAll('.slow-reveal');
 	textEl.forEach(text => {
