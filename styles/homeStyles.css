@@ -141,27 +141,51 @@
 	margin-left: 2rem;
   }
   
-  .footer-container-social-media a {
+  .footer-container-logo-facebook {
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
 	margin-right: 1.875rem;
   }
-  
+
   .logo-facebook {
-	border-radius: 3px;
 	background-color: white;
+	border-radius: 5px;
 	width: 25px;
 	height: 25px;
   }
   
+  .footer-container-logo-facebook:hover {
+	background-color: rgba(213, 150, 108, 1);
+	transition: background-color 0.3s ease;
+  }
+
   .logo-instagram {
 	background-color: #151515;
 	width: 40px;
 	height: 40px;
+	margin-right: 1.875rem;
   }
   
+  .logo-instagram:hover {
+	background-color: rgba(213, 150, 108, 1);
+	transition: background-color 0.3s ease;
+	border-radius: 10px;
+  }
+
   .logo-twitter {
 	background-color: #151515;
+	padding: 4px;
   }
   
+  .logo-twitter:hover {
+	background-color: rgba(213, 150, 108, 1);
+	transition: background-color 0.3s ease;
+	border-radius: 10px;
+  }
   /**************************************************/
   /* Homepage - Tablet Portrait View*/
   /* Header Section */
@@ -338,10 +362,6 @@
   /**************************************************/
 	.footer-container-social-media a:nth-child(1){
 	  margin-right: 0;
-	}
-  
-	.footer-container-social-media a:nth-child(2){
-	  margin-left: 2rem;
 	}
   
 	.footer-container-social-media a:nth-child(3){
