@@ -129,9 +129,15 @@
   margin-left: 2rem;
 }
 
-.footer-location-page-container-social-media a {
-  margin-right: 1.875rem;
-}
+.footer-location-page-container-logo-facebook {
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin-right: 1.875rem;
+  }
 
 .logo-facebook-location-page {
   border-radius: 3px;
@@ -140,11 +146,32 @@
   height: 25px;
 }
 
+.footer-location-page-container-logo-facebook:hover {
+  background-color: #ffffff;
+	transition: background-color 0.3s ease;
+} 
+
 .logo-instagram-location-page {
   width: 40px;
   height: 40px;
+  margin-right: 1.875rem;
 }
 
+.logo-instagram-location-page:hover {
+	background-color:#ffffff;
+	transition: background-color 0.3s ease;
+	border-radius: 10px;
+  }
+
+  .logo-twitter-location-page {
+    padding: 4px;
+  }
+
+  .logo-twitter-location-page:hover {
+    background-color:#ffffff;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
 /**************************************************/
 /* Location page - Tablet Portrait View*/
 /* Header Section */
