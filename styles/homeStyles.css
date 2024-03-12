@@ -379,7 +379,6 @@
 	}
 
 	.header-container-text {
-	  display: flex;
 	  justify-content: space-between;
 	}
   
@@ -431,7 +430,6 @@
 	}
   
 	.header-container-link {
-	  display: flex;
 	  justify-content: end;
 	  margin-right: 5rem;
 	}
@@ -550,8 +548,3 @@
 	  margin-right: 10.313rem;
 	}
   }
-
-  /* Check the homestyles css for any flex properties that should be in html
- resend to gh-pages
- complete readme file 
-  */
