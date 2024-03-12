@@ -14,7 +14,7 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
 - [Author](#author)
 
 ## Overview
-For this challenge, I needed to reproduce a two-page website from a Figma design. The design had a mobile, tablet, and desktop layout.The site has internal links as well as links to social media sites that all have hover effects that change the color. As a bonus, I added a transition property to the text on the home page. It loads at a slight delay as the user scrolls down the page to give it movement.
+For this project, I recreated a two-page website based on a Figma design. The design included layouts for mobile, tablet, and desktop screens. The site features internal navigation links and social media icons with hover effects that change color. Additionally, I implemented a transition effect on the homepage text, which subtly animates as users scroll down the page, enhancing the overall user experience. I did have to temporarily disable the feature to be able to display the finished project on the Frontend Mentor site.
 
 ### The challenge
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-2page-site-for-art-museum-EsEuZqCqt9)
-- Live Site URL: [Add live site URL here](https://stacy-riley.github.io/art-gallery-website/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-2page-site-for-art-museum-EsEuZqCqt9)
+- Live Site URL: (https://stacy-riley.github.io/art-gallery-website/)
 
 ### Built with
 
@@ -116,7 +116,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
 ### Continued development
 
-I plan on continuing to learn more about how to use CSS and JavaScript to create impresive transitions to images and script on the page.  It gives the page movement and a bit of "wow" to a site and I believe my clients would enjoy having more features like this on their websites.
+I plan on continuing to learn more about how to use CSS and JavaScript to create impressive transitions to images and script on the page.  It gives the page movement and a bit of "wow" to a site and I believe my clients would enjoy having more features like this on their websites.
 
 ## Author
 
