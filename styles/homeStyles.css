@@ -373,10 +373,6 @@
 		width: 28.125vw;
 		overflow: hidden;
 	}
-
-	.header-wrapper-image-divs {
-	  display: flex;
-	}
   
 	.header-container-image img {
 	  content: url('../assets/desktop/image-hero@2x.jpg');
