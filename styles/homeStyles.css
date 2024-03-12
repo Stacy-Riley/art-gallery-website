@@ -369,10 +369,19 @@
 	  margin-bottom: 11.25rem;
 	}
   
+	.header-container-image {
+		width: 28.125vw;
+		overflow: hidden;
+	}
+
 	.header-wrapper-image-divs {
 	  display: flex;
 	}
   
+	.header-container-image img {
+	  content: url('../assets/desktop/image-hero@2x.jpg');
+	}
+
 	.header-container-text {
 	  display: flex;
 	  justify-content: space-between;
@@ -421,6 +430,7 @@
 	  font-size: 1.375rem;
 	  line-height: 2rem;
 	  margin-left: 19.5rem;
+	  margin-bottom: 4rem;
 	  max-width: 21.875rem;
 	}
   
