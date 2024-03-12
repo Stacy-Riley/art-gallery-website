@@ -19,10 +19,6 @@ html {
 }
 
 body {
-  /* Headings */
-  /* font-family: 'Big Shoulders Display', sans-serif; */
-  /* Body */
-  /* font-family: 'Outfit', sans-serif; */
   min-height: 100%;
   margin: 0;  
 }
@@ -55,17 +51,19 @@ img {
   font-size: 3.125rem;
   text-transform: uppercase;
 }
-
-/* Used for text in Header */
+/***************************************************/
+/* Text transition - slow/delayed load effect */
+/***************************************************/
+/* Header */
 .slow-load {
   opacity: 0; /* Initially makes text invisible */
-  transition: opacity 1s ease; /* Applies smooth transition effect */
+  transition: opacity 1000ms ease; /* Applies smooth transition effect */
 }
 
-/* Used for text in Body and Footer */
+/* Body and Footer */
 .slow-reveal {
   opacity: 0; /* Initially makes text invisible */
-  transition: opacity 1s ease; /* Applies smooth transition effect */
+  transition: opacity 1000ms ease; /* Applies smooth transition effect */
 }
 
 
