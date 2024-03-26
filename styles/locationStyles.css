@@ -2,8 +2,7 @@
 /* Location Page - Mobile First*/
 /* Header Section */
 /**************************************************/
-.header-location,
-.header-location-container-map {
+.header-location {
   margin: 0;
   position: relative;
 }
@@ -13,6 +12,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 .header-location-container-link a {
@@ -28,6 +28,12 @@
   font-weight: 800;
   letter-spacing: 0.227rem;
   padding: 1.375rem 2rem 1.375rem 2.188rem;
+}
+
+#map {
+  position: relative;
+  height: 35.875rem;
+  z-index: 1;
 }
 
 /*** Hover Effect of "Our Location" link  ***/
@@ -168,8 +174,8 @@
 /* Header Section */
 /**************************************************/
 @media(min-width: 768px){
-  .header-location-container-map img {
-    content: url('../assets/tablet/image-map@2x.png');
+  #map {
+    height: 37.5rem;
   }
 
   .header-location-container-link-inner-div {
@@ -237,8 +243,8 @@
 /* Header Section */
 /**************************************************/
   @media(min-width: 1439px){
-  .header-location-container-map img {
-    content: url('../assets/desktop/image-map@2x.png');
+  #map {
+    height: 42.813rem;
   }
 
   .header-location-container-link-inner-div {
