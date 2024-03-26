@@ -41,3 +41,13 @@ window.addEventListener('scroll', handleScroll);
 window.addEventListener('DOMContentLoaded', function(){
 	setTimeout(fadeInHeader, 500); /*Delay the function execution: 1000ms = 1 second)*/
 })
+
+//Leaflet Map:
+var map = L.map('map').setView([41.4813725354493, -71.31037103172244], 15.5); //15.5 is the amt of zoom into the map
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+var marker = L.marker([41.48163065277464, -71.31038736300455]).addTo(map);
