@@ -331,8 +331,8 @@
   /* Header Section */
   /**************************************************/
   @media(min-width: 1024px){
-	.header-wrapper-text {
-	  margin-left: 6.25rem
+	.header-wrapper-text p {
+	  margin-left: 6.25rem;
 	}
 	
   /**************************************************/
