@@ -33,8 +33,20 @@
 #map {
   position: relative;
   height: 35.875rem;
+  width: 100%;
   z-index: 1;
 }
+
+#map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 121, 58, 0.4); /* 0.4 = 40% opacity */
+    pointer-events: none; /* Ensures that clicks on the overlay don't interfere with the map's interactivity */
+    z-index: 1000;
+  }
 
 /*** Hover Effect of "Our Location" link  ***/
 .header-location-container-link-inner-div:hover .icon-react {
